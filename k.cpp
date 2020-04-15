@@ -5,7 +5,7 @@ int main()
 {
     string s;
     cin>>s;
-    if(s%2==0)
-    cout<<
+    
+    cout<<s<<endl;
     return 0;
 }
