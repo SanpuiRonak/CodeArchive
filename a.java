@@ -7,6 +7,7 @@ class a{
         for(int i=0;i<l;i++){
             arr[i]=in.nextInt();
         }
+        in.close();
     
     }
 }

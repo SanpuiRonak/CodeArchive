@@ -26,19 +26,20 @@ int main()
     {
         cin>>x;
         ll low=0,high=p-1;
-        ll pivot=(low+high)/2;
-        while(low<=high)
+        ll pivot;
+        while(low<high)
         {
+            pivot=(low+high)/2;
             if(cpiles[pivot]>x)
             {
                 high=pivot;
-                pivot=(high+low)/2;
+                
             }
             else if(cpiles[pivot]<x)
             {
                 cpiles[pivot]<x;
                 low=pivot;
-                pivot=low+high/2;
+                
             }
             else
             {
