@@ -15,7 +15,7 @@ int main()
     for(ll i =1;i<p;i++)
     {
         cin>>piles[i];
-        cpiles[i]=piles[i-1]+piles[i];
+        cpiles[i]=cpiles[i-1]+piles[i];
     }
 
     ll t;
